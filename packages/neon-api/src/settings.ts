@@ -1,5 +1,5 @@
 export const settings: { [key: string]: any } = {
-  httpsOnly: false
+  httpsOnly: true
 };
 
 export function set(newSettings: { [key: string]: any }) {
